@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.fixeld {
+  margin-top: -10px;
+  .NavBar {
+    width: 100vw;
+  }
+  position: fixed;
+}
+.NavBar {
+  background: #0f314d;
+  display: flex;
+  position: relative;
+  align-items: center;
+  h1 {
+    a {
+      padding: 20px;
+      text-decoration: none;
+      color: white;
+      font-family: "Source Code Pro", monospace;
+      -webkit-user-select: none;
+      user-select: none;
+      justify-content: space-between;
+      justify-content: center;
+    }
+  }
+  border-bottom: white solid 3px;
+}
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+body {
+  min-height: 100%;
+}
+.sidebar {
+  float: left;
+  padding-top: 10px;
+  padding-left: 6px;
+  background: #0f314d;
+  position: fixed;
+  width: 174px;
+  height: 100vh;
+  -webkit-user-select: none;
+  user-select: none;
+  font-family: "Noto Sans JP", sans-serif;
+
+  a {
+    text-decoration: none;
+  }
+}
+.sidebar-content {
+  width: 150px;
+  h2 {
+    font-size: 20px;
+    padding-left: 10px;
+    color: #d3d3dc;
+    
+  }
+  h2:hover {
+    color: #000000;
+    background: #1b5585;
+  }
+  margin-top: 1px;
+  img {
+    margin-right: 5px;
+    width: 20px;
+    filter: invert(1);
+    vertical-align: middle;
+  }
+}
+.line {
+  border-bottom: white solid 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 150px;
+}
+.sidebar-content:hover {
+  img {
+    filter: invert(0);
+  }
+}
+noscript {
+  padding-top: -10px;
+}
+.content {
+  :not(div){
+    animation: content_anim 1s;
+  }
+  padding-left: 190px;
+  padding-top: 45px;
+  font-family: "Noto Sans JP", sans-serif;
+  h1 {
+    color: #d3d3dc;
+  }
+  p {
+    color: #d3d3dc;
+  }
+  a {
+    color: #d3d3dc;
+  }
+}
+footer {
+  background: #0f314d;
+  font-size: 15px;
+  text-align: left;
+  bottom: 0;
+  position: absolute;
+  -webkit-user-select: none;
+  user-select: none;
+}
+body {
+  background: #06111a;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #d3d3dc;
+}
+//font
+
+@media only screen and (max-width: 979px) {
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Roboto+Mono:wght@100&family=Source+Code+Pro:wght@200&display=swap");
+
+@keyframes content_anim {
+  0%{
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  50%{
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
