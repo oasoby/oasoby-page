@@ -37,6 +37,7 @@
         background: rgb(2, 72, 223);
         border: none;
         width: 340px;
+        height: 50px;
     }
 
 }
