@@ -33,11 +33,15 @@
     }
 
     button {
+        margin-top: 30px;
+        margin-bottom: 30px;
         border-radius: 5px;
         background: rgb(2, 72, 223);
         border: none;
         width: 340px;
         height: 50px;
+        cursor: pointer;
+        font-size: 15px;
     }
 
 }
