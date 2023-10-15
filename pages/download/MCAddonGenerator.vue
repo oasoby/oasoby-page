@@ -42,6 +42,7 @@
         height: 50px;
         cursor: pointer;
         font-size: 15px;
+        color: #d3d3dc;
     }
 
 }
