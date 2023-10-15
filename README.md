@@ -1,1 +1,1 @@
-#oasoby.github.io
+oasoby.github.io
