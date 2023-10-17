@@ -7,4 +7,5 @@
     <footer class="fixeld">
       <h2>©2023 oasobi</h2>
     </footer>
+    
 </template>

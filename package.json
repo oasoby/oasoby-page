@@ -16,5 +16,8 @@
     "vue": "^3.3.4",
     "vue-router": "^4.2.5",
     "vue-svg-loader": "^0.16.0"
+  },
+  "dependencies": {
+    "nuxt-cloudflare-analytics": "^1.0.8"
   }
 }

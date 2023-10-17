@@ -15,4 +15,12 @@ export default defineNuxtConfig({
       ],
     },
   },
+  modules: [
+    [
+      "nuxt-cloudflare-analytics",
+    {
+      token: "0795e4cc07b446fc892ca94e5eb4e09b"
+    }
+    ]
+  ]
 });
