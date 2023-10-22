@@ -11,13 +11,14 @@
   position: fixed;
 }
 .NavBar {
-  background: #0f314d;
+  background: #181818;
   display: flex;
   position: relative;
   align-items: center;
+  height: 44px;
   h1 {
     a {
-      padding: 20px;
+      padding-left:15px;
       text-decoration: none;
       color: white;
       font-family: "Source Code Pro", monospace;
@@ -40,7 +41,7 @@ body {
   float: left;
   padding-top: 10px;
   padding-left: 6px;
-  background: #0f314d;
+  background: #181818;
   position: fixed;
   width: 174px;
   height: 100vh;
@@ -62,7 +63,8 @@ body {
   }
   h2:hover {
     color: #000000;
-    background: #1b5585;
+    background: #ffffff;
+    border-radius: 5px;
   }
   margin-top: 1px;
   img {
@@ -105,13 +107,14 @@ noscript {
   }
 }
 footer {
-  background: #0f314d;
+  background: #181818;
   font-size: 15px;
   text-align: left;
   bottom: 0;
   position: absolute;
   -webkit-user-select: none;
   user-select: none;
+  padding-left: 15px;
 }
 body {
   background: #06111a;
