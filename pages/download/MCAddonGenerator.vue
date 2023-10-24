@@ -6,7 +6,7 @@
 
         <button
             onclick="location.assign(`https://github.com/oasoby/MCAddonGenerator/releases/download/latest/MCAddonGenerator.zip`)"
-            type="button">MCAddonGeneratorをダウンロード</button>
+            type="button" disabled>MCAddonGeneratorをダウンロード</button>
         <h1>使い方</h1>
         <div class="htu">
             <ul>
