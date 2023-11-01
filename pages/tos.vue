@@ -3,11 +3,6 @@
     <div class="tos">
         <p>このサイトからダウンロードしたものの再配布、自作発言をしないでください。</p>
         <p>ダウンロードは自己責任でお願いします。損害や問題に対しても責任を負いません。</p>
-        <h1>お問い合わせ</h1>
-        <p>本サイトについて、なにか質問がある場合は、TwitterのDMまでお願いします。</p>
-        <h2><button
-                onclick="window.open(`https://twitter.com/messages/compose?recipient_id=1667762399846481920`)">Twitter</button>
-        </h2>
         <p>このサイトのアイコンは全て<a href="https://primer.style/design/foundations/icons" target="_blank"
             rel="noopener noreferrer">octicon</a>のものです。</p>
     </div>
