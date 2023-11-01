@@ -26,12 +26,6 @@
                             <h2><img src="~assets\images\site\blog.svg" alt="home">ブログ</h2>
                         </a></li>
                 </div>
-                <div class="sidebar-content">
-                    <li><a href="/contact">
-                            <h2><img src="~assets\images\site\contact.svg" alt="home">Contact</h2>
-                        </a></li>
-
-                </div>
             </ul>
             <div class="line"></div>
             <div class="sidebar-content">
