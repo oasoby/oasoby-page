@@ -22,5 +22,12 @@ export default defineNuxtConfig({
       token: "0795e4cc07b446fc892ca94e5eb4e09b"
     }
     ]
-  ]
+  ],
+  router: {
+    base: 'oasoby.github.io'
+  },
+
+  generate: {
+    dir: 'docs'
+  },
 });

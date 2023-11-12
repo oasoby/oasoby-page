@@ -1,12 +1,13 @@
 <template>
     <div class="des">
+        <p>バグが見つかったので一時的にダウンロードできません。</p>
         <h1>MCAddonGenerator (windows only)</h1>
         <p>マイクラ統合版のScriptAPIアドオンを作りやすくするツール。</p>
         <p>ダウンロードすると<a href="../tos">利用規約</a>に同意したことになります。</p>
 
         <button
             onclick="location.assign(`https://github.com/oasoby/MCAddonGenerator/releases/download/latest/MCAddonGenerator.zip`)"
-            type="button">MCAddonGeneratorをダウンロード</button>
+            type="button" disabled>MCAddonGeneratorをダウンロード</button>
         <h1>使い方</h1>
         <div class="htu">
             <ul>
