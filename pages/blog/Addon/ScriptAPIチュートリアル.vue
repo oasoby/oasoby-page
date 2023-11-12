@@ -14,7 +14,7 @@
     <img src="~assets\docs-imgs\Minecraft_Bedrock_Edition_Debugger.png" alt="Minecraft Bedrock Edition Debugger">
     <br>
     <br>
-    <p><a href="../../download\MCAddonGenerator">MCAddonGenerator</a>を使用した場合は、以下の作業は行わなくても問題ありません。</p>
+    <!-- <p><a href="../../download\MCAddonGenerator">MCAddonGenerator</a>を使用した場合は、以下の作業は行わなくても問題ありません。</p> -->
     <h1>作業用のフォルダを作成する</h1>
     <p>最初に、エクスプローラーの設定を変更して、隠しファイルを表示させます。</p>
     <p>エクスプローラーを開き、"表示 > 表示 > 隠しファイル" にチェックを入れてください。</p>
@@ -87,7 +87,7 @@
 	"dependencies": [
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.6.0-beta"
+			"version": "1.7.0-beta"
 		},
 		{
 			"module_name": "@minecraft/server-ui",
@@ -116,7 +116,7 @@
     <br>
     <div class="code">
         <span>npm</span>
-        <p>npm i @minecraft/server@1.6.0-beta.1.20.30-stable</p>
+        <p>npm i @minecraft/server@1.7.0-beta.1.20.40-stable</p>
         <br>
     </div>
     <br>
@@ -158,6 +158,33 @@ world.beforeEvents.chatSend.subscribe(ev => {
     <img src="~assets\docs-imgs\script_api_tutorial.png" alt="script_api_tutorial">
     <br>
     <br>
+    <h1>実際に試してみる</h1>
+    <p>実際に動くか試してみます。</p>
+    <p>新しくワールドを作るとき、必ず実験からベータAPIを有効にしてください。</p>
+    <br>
+    <img src="~assets\docs-imgs\betaapi.png" alt="beta_api">
+    <br>
+    <br>
+    <p>そしたらビヘイビアーパックを開いて、さっき作ったアドオンの有効化ボタンを押してください。</p>
+    <br>
+    <img src="~assets\docs-imgs\addon_enable.png" alt="addon有効化">
+    <br>
+    <br>
+    <p>あとはワールドを作って入るだけです。</p>
+    <p>ワールドに入ったらタグを追加します。</p>
+    <div class="code">
+        <span>redタグを追加</span>
+        <pre>
+        /tag @s add red 
+    </pre>
+    </div>
+    <p>または</p>
+    <div class="code">
+        <pre>
+            /tag @s add blue
+        </pre>
+    </div>
+    <p>あとはチャットを送ったら名前の色が変わっているはずです。これを応用すればチームチャットなども作れます。</p>
 </template>
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200&display=swap');
@@ -205,6 +232,7 @@ a {
 </style>
 
 <script setup>
-useHead ({
+useHead({
     title: "ScriptAPIチュートリアル"
-})</script>
+})
+</script>
