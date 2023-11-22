@@ -24,7 +24,7 @@ useHead ({
 
 <style lang="scss">
 .bg_img {
-    background-image: url("~/assets/images/site/bgi.png");
+    background-image: url("~/assets/images/site/bgi.webp");
     background-repeat: no-repeat;
     width: auto;
     height: 94.45vh;
