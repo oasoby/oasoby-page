@@ -1,1 +1,1 @@
-oasoby.github.io
+https://oasobi.pages.dev
